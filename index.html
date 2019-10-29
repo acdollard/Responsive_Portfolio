@@ -9,6 +9,13 @@
 
 <!--Bootstrap stylesheet-->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+
+
+
+
 </head>
 <body>
      <!--navbar look under navbar-brand and utilities/flex-->
@@ -16,11 +23,11 @@
                 <div class="container m-2">
                     
                     
-                        <a class="navbar-brand" href="#!">Alex Dollard</a>
+                        <a class="navbar-brand bg-info" id="navbar">Alex Dollard</a>
                      
                     
                     
-                        <ul class="navbar-nav  ml-auto justify-content-xs-center justify-content-sm-end">
+                        <ul class="navbar-nav flex-wrap justify-content-xs-center justify-content-sm-end">
                             <li class="nav-item">
                             <a class="nav-link" href="index.html">About Me</a><span class="sr-only">(current)</span></a>
                             </li>
@@ -38,39 +45,40 @@
 
     <!--container for page content-->    
         
-    <div class="container bg-white col-sm-10 col-md-10 col-lg-6 mb-4">
+    <div class="container bg-white col-sm-10 col-md-10 col-lg-6 mb-4" id="mainContainer">
         <!--page header-->
-        <div class="row d-block justify-content-left ">
-            <div class="page-header d-block text-info bg-dark"><h2>About Me</h2></div>
+        <div class="row d-block">
+            <div class="page-header d-block text-info bg-light ml-3 mr-3" id="header"><h2>About Me</h2></div>
         </div>
         <div class="row">
         <!--puttingimage in its own div to pull left, tyring to get text to wrap around-->
-            <div class="col-xs-12 col-md-12 col-lg-12 pt-2 bg-dark">
-                    <img src="assets/images/meeee.jpg" height="200px" width="200px" alt="Me with a bike and a pop" float="left">
-                      
-                    <p><br>
-                    My name is Alex Dollard, I'm good at music and bad at sports, I can talk about books for longer 
-                    than most people would care to but football games for less than a full sentence, and I'm very
-                    self-conscious about my singing voice although I really want to sing. I'm absent-minded and daydream often.
-                    I'm unsure of most things but I'm pretty sure I'm a kind person, or at least I try to be. I believe there's also 
-                    an important difference between being kind and being nice. I also believe that relationships
-                    are the most valuable things in life. I believe in always trying your best, even if I don't always follow through
-                    with that belief. I'm spiritual, but not religious. I've noticed that when I'm in an argument with someone and 
-                    I start to get mad it usually means the other person is right. 
-                    <br><br>
-                    The thing that excites me most about coding is that you get to solve a logic puzzle, and at the end, you get an 
-                    actual, working thing. A thing that you made and brought into the world. It'd be like if every time 
-                    you solved a riddle you got a new piece of furniture. I can think of few things that would be so rewarding.
-                    Raising a kid? Maybe. I wouldn't know. I hope to find out one day. <br>
-                    <br>
-                    Anyway, I'm here to learn a new and useful trade, to really push myself at something difficult, and hopefully
-                    come out on the other side with a little more sense of direction, if not armed with a newfound set of skills that I can 
-                    take with me in my aimlessness. Thanks for listening. 
-                    I hope to get a beer or coffee with you and get to know you better someday soon. 
-                    </p>   
+            <div class="col-sm-12 pt-2 bg-light">
+                <img src="assets/images/meeee.jpg" class="pull-left" height="200px" width="200px" alt="Me with a bike and a pop">
+            
+                <p>
+                My name is Alex Dollard, I'm good at music and... so-so at sports, I can talk about books for longer 
+                than most people would care to but football games for less than a full sentence, and I'm very
+                self-conscious about my singing voice although I really want to sing. I'm absent-minded and daydream often.
+                I'm unsure of most things but I'm pretty sure I'm a kind person, or at least I try to be. I believe there's also 
+                an important difference between being kind and being nice. I also believe that relationships
+                are the most valuable things in life. I believe in always trying your best, even if I don't always follow through
+                with that belief. I'm spiritual, but not religious. I've noticed that when I'm in an argument with someone and 
+                I start to get mad it usually means the other person is right. 
+                <br><br>
+                The thing that excites me most about coding is that you get to solve a logic puzzle, and at the end, you get an 
+                actual, working thing. A thing that you made and brought into the world. It'd be like if every time 
+                you solved a riddle you got a new piece of furniture. I can think of few things that would be so rewarding.
+                Raising a kid? Maybe. I wouldn't know. I hope to find out one day. <br>
+                <br>
+                Anyway, I'm here to learn a new and useful trade, to really push myself at something difficult, and hopefully
+                come out on the other side with a little more sense of direction, if not armed with a newfound set of skills that I can 
+                take with me in my aimlessness. Thanks for listening. 
+                I hope to get a beer or coffee with you and get to know you better someday soon. 
+                </p>   
             </div>
         </div>
     </div> 
+
 
 </body>
 </html>
