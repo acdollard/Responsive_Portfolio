@@ -1,5 +1,8 @@
 body {
-    background: url(../../assets/images/cheap_diagonal_fabric.png)
+    background: url(../../assets/images/cool-background.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+
 }
 
 
@@ -8,6 +11,9 @@ body {
     font-family: 'Shadows Into Light', cursive;
     padding:1%;
     font-size: 24pt; 
+    background: url(../../assets/images/cool-background.png);
+    background-size: cover; 
+    
     
 
 }
@@ -28,4 +34,9 @@ img{
 
 p {
     margin: 10px ;
+}
+
+@media screen and (max-width: 700px) {
+    #navbar {margin: 0 auto;}
+    #navbarLinks {align-content: center;}
 }
