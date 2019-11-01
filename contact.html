@@ -7,50 +7,49 @@
     <title>Contact</title>
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 
 </head>
 <body>
-        <nav class="navbar navbar-expand navbar-light bg-light flex-wrap">
-         
-                <a class="row navbar-brand col-12 col-sm-3 text-center">Alex Dollard</a>
-
-                  <ul class="row navbar-nav col-12 col-sm-9 justify-content-around">
-                    <li class="nav-item">
-                      <a class="nav-link" href="index.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-                  
+    <nav class="navbar navbar-expand navbar-light bg-white mb-4 flex-wrap" >
                 
-          
-        </nav>
+        <a class="row navbar-brand col-12 col-sm-3 mr-3 text-center" id="navbar" >Alex Dollard</a>
+        
+        <ul class="row navbar-nav col-12 col-sm-9 justify-content-end" id="navbarLinks">
+            <li class="nav-item">
+            <a class="nav-link" href="index.html">About Me</a><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>        
+    </nav>
 
 
-<div class="container "> 
+<div class="container col-sm-10 col-md-8 col-lg-6 bg-white mb-5"> 
   <!--page header-->
-    <div class="row justify-content-left">
-        <div class="page-header text-info mt-sm-4"><h2>Contact</h2></div>
+    <div class="row d-block">
+        <div class="page-header d-block bg-white col-xs-12 pt-2 ml-2" id="header"><h2>Contact</h2></div>
     </div>
   <!--contact forms and button-->
-  <div class="row justify-content-left">
+  <div class="row justify-content-left bg-white pb-4">
     <div class="col-md-8">
         <form>
               <div class="form-group">
-                <label for="formGroupExampleInput">Name</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Name">
+                <label>Name</label>
+                <input type="text" class="form-control"  placeholder="Your Name">
               </div>
               <div class="form-group">
-                <label for="formGroupExampleInput2">Email</label>
-                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="YourEmail@email.com">
+                <label>Email</label>
+                <input type="text" class="form-control"  placeholder="YourEmail@email.com">
               </div>
               <div class="form-group">
-                  <label for="formGroupExampleInput2">Message</label>
-                  <input type="text text-area-row-3" class="form-control" id="formGroupExampleInput2">
+                  <label>Message</label>
+                <textarea type="text" class="form-control"></textarea>
               </div>
             
               <button type="button" class="btn btn-info">Holler at me</button>
@@ -59,12 +58,10 @@
   </div>  
 </div>
 
+<footer class="page-footer">
+    <div class="footer-copyright text-center py-3">© 2019 Copyright</div>
+</footer>
 
-
-
-
-
-<h1></h1>
     
 </body>
 </html>
