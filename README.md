@@ -19,6 +19,7 @@ The page is done with as much styling and layout in Bootstrap as I could manage,
   
   ## Meta 
   Alex Dollard ----- alexdollard141@gmail.com
+  
   github.com/acdollard/Responsive_Portfolio
  
   
